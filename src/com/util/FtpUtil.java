@@ -30,7 +30,7 @@ public class FtpUtil {
 		this.ftpClient.addProtocolCommandListener(new PrintCommandListener(
 				new PrintWriter(System.out)));
 	}   
-
+   
 	/** */
 	/**
 	 * 连接到FTP服务器
