@@ -1,4 +1,4 @@
-package com.util;
+package com.util.fileUtil;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -25,7 +25,7 @@ public class FtpUtil {
 
 	public FTPClient ftpClient = new FTPClient();
 
-	public FtpUtil() {  
+	public FtpUtil() {
 		// 设置将过程中使用到的命令输出到控制台
 		this.ftpClient.addProtocolCommandListener(new PrintCommandListener(
 				new PrintWriter(System.out)));
