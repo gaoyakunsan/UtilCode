@@ -29,7 +29,7 @@ public class FtpUtil {
 		// 设置将过程中使用到的命令输出到控制台
 		this.ftpClient.addProtocolCommandListener(new PrintCommandListener(
 				new PrintWriter(System.out)));
-	}
+	}   
 
 	/** */
 	/**
