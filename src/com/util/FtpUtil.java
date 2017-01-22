@@ -21,7 +21,7 @@ public class FtpUtil {
 	public static Logger logger = LoggerFactory.getLogger(FtpUtil.class);
 
 	public String charsetRemote = "GBK";
-	public String charsetLocal = "iso-8859-1";
+	public String charsetLocal = "iso-8859-1";    
 
 	public FTPClient ftpClient = new FTPClient();
 
