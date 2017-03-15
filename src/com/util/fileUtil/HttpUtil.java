@@ -59,13 +59,4 @@ public class HttpUtil {
 			
 		}
 	}
-	
-	
-	
-	
-	
-	
-	/**
-	 * 
-	 */
 }
