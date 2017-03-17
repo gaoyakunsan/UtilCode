@@ -12,7 +12,7 @@ public class GetFileInfoByFfprobe {
 
 	public static void getMediaInfo(){
 		
-		String cmdStr = "D:\\anzhuang\\ffmpeg\\bin\\ffprobe.exe -v quiet -print_format json -show_format -show_streams -i D:\\filme\\test.mp4";
+		String cmdStr = "D:\\anzhuang\\ffmpeg\\bin\\ffprobe.exe -v quiet -print_format json -show_format -show_streams -i D:\\filme\\ad43e0a5de062577c0081e8cfee4b864-382660491.ts";
 		
 		int height = 0;
 		int width = 0;
@@ -70,7 +70,7 @@ public class GetFileInfoByFfprobe {
 			}
 			JSONObject jsObj= (JSONObject)obj.get("format");
 			if(bitrate == 0){
-				if(jsObj.containsKey("bitrate")){
+				if(jsObj.containsKey("bit_rate")){
 					bitrate = (Integer.valueOf((String) jsObj.get("bit_rate")))/1024;
 				}
 			}
@@ -82,7 +82,7 @@ public class GetFileInfoByFfprobe {
 					}
 				}
 			}
-			size = Integer.valueOf((String)jsObj.get("size"));
+			size = Long.valueOf((String)jsObj.get("size"));
 			
 			System.out.println(sb.toString());
 			System.out.println();
