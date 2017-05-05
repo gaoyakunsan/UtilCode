@@ -95,7 +95,7 @@ public class BigFileMd5 {
 		// }
 		long start = System.currentTimeMillis();
 		System.out.println("开始计算文件MD5值,请稍后...");
-		String fileName = "D:\\filme\\test.mp4";
+		String fileName = "C:\\Users\\yakungao\\Downloads\\5cdc4a35300ca5d57422e8d79de62785-25283463128.ts";
 		// // String fileName = "E:\\SoTowerStudio-3.1.0.exe";
 		String hashType = "MD5";
 		String hash = getHash(fileName, hashType);

@@ -12,7 +12,7 @@ public class GetFileInfoByFfprobe {
 
 	public static void getMediaInfo(){
 		
-		String cmdStr = "D:\\anzhuang\\ffmpeg\\bin\\ffprobe.exe -v quiet -print_format json -show_format -show_streams -i D:\\filme\\ad43e0a5de062577c0081e8cfee4b864-382660491.ts";
+		String cmdStr = "D:\\anzhuang\\ffmpeg\\bin\\ffprobe.exe -v quiet -print_format json -show_format -show_streams -i D:\\filme\\kkkk.ts";
 		
 		int height = 0;
 		int width = 0;
