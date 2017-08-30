@@ -125,7 +125,7 @@ public class RedisUtil {
 			System.out.println(map.get(str));
 		}
 		this.releaseResource(jedis);
-
+		System.out.println("444444444444");
 		
 	}
 }
