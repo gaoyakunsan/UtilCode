@@ -117,6 +117,7 @@ public class RedisUtil {
 		this.releaseResource(jedis);
 	}
 	public void getHash(){
+		System.out.println("222222222222222222222222");
 		Jedis jedis = this.getJedis();
 		Map<String,String> map = jedis.hgetAll("testHash");
 		Set<String> set = map.keySet();
@@ -124,5 +125,6 @@ public class RedisUtil {
 			System.out.println(map.get(str));
 		}
 		this.releaseResource(jedis);
+		System.out.println("11111111111111111111");
 	}
 }
