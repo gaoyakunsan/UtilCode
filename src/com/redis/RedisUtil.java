@@ -126,6 +126,8 @@ public class RedisUtil {
 		}
 		this.releaseResource(jedis);
 		System.out.println("444444444444");
-		
+		if(true){
+			
+		}
 	}
 }
