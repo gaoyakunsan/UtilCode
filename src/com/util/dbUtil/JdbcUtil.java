@@ -16,7 +16,7 @@ public class JdbcUtil {
       
     static {  
         try {  
-            Class.forName("com.mysql.jdbc.Driver");  
+            Class.forName("oracle.jdbc.driver.OracleDriver");  
         } catch (ClassNotFoundException e) {  
             throw new ExceptionInInitializerError(e);  
         }  
