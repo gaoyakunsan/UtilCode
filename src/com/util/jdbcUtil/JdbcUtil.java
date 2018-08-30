@@ -8,9 +8,9 @@ import java.sql.Statement;
 
 public class JdbcUtil {
 
-	private static String url = "jdbc:mysql://masterdb.oms.idc.pplive.cn/media_asset?useUnicode=true&characterEncoding=utf8"; 
-    private static String user = "pp_meizi";  
-    private static String password = "a2bcbfffe05f83764";  
+	private static String url = "jdbc:mysql://localhost:8080/media_asset?useUnicode=true&characterEncoding=utf8"; 
+    private static String user = "root";  
+    private static String password = "root";  
       
     private JdbcUtil() { }  
       

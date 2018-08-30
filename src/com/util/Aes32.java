@@ -11,6 +11,8 @@ import org.apache.commons.net.util.Base64;
  *
  */
 public class Aes32 {
+	
+	//Light.GREEN.getnCode();
 	// 加密
 	public String Encrypt(String str) {
 		try {
